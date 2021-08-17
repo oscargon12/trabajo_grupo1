@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+
+		<!-- Bootstrap CSS -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+			integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+			crossorigin="anonymous"
+		/>
+
+		<title>Ejercicios!</title>
+	</head>
+	<body>
+		<header>
+			<div class="collapse bg-dark" id="navbarHeader">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-8 col-md-7 py-4">
+							<h4 class="text-white">Descripción</h4>
+							<p class="text-muted">Este documento contiene los ejercicios del 1 al 3, para el taller grupar desarrollado en la clase No. 27 del Bootcamp Fullstack MEAN</p>
+						</div>
+						<div class="col-sm-4 offset-md-1 py-4">
+							<h4 class="text-white">Grupo 1:</h4>
+							<ul class="list-unstyled">
+								<li><a href="#" class="text-white">Angello Gómez</a></li>
+								<li><a href="#" class="text-white">Carlos Pérez</a></li>
+								<li><a href="#" class="text-white"> José Lineros </a></li>
+								<li><a href="#" class="text-white"> Óscar González </a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="navbar navbar-dark bg-dark shadow-sm">
+				<div class="container d-flex justify-content-between">
+					<a href="#" class="navbar-brand d-flex align-items-center">
+						<i class="bi bi-sunglasses"></i>
+						<strong class="ml-2">Ejercicios 1-3</strong>
+					</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader"
+						aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+				</div>
+			</div>
+		</header>
+
+		<!-- Contenido -->
+		<main>
+			<div class="container">
+				<div class="row">
+					<div class="col-12 mt-4 mt-md-5">
+						<h2 class="text-info text-center">Taller de Ejercicios</h2>
+						<h4 class="text-center text-muted">Grupo 1</h4>
+					</div>
+				</div>
+	
+				<!-- Eje 1 -->
+				<section class="mt-4 mt-md-5 mb-5">
+					<div class="card shadow-sm">
+						<div class="card-header">
+							Ejercicio 1:
+						</div>
+						<div class="card-body">
+							<h5 class="mb-3">Calcula la cantidad de letras en una palabra</h5>
+							<div class="row">
+								<div class="col-12 col-lg-9 mb-2">
+									<input class="form-control" type="text" placeholder="Escribe una palabra" id="inputPalabra"/>
+								</div>
+								<div class="col-12 col-lg-3">
+									<button class="btn btn-info btn-block" onclick="ejercicio1()">Mostrar cantidad</button>
+								</div>
+							</div>
+							<div id="resultado1"></div>
+						</div>
+					</div>
+				</section>
+	
+				<!-- Eje 2 -->
+				<section class="mb-5">
+					<div class="card shadow-sm">
+						<div class="card-header">
+							Ejercicio 2:
+						</div>
+						<div class="card-body">
+							<h5 class="mb-3">Calcula la cantidad de Palabras en una frase</h5>
+							<textarea class="form-control" type="text" placeholder="Escribe una cadena de palabras" id="inputPalabras"></textarea>
+							<button class="btn btn-info mt-3 px-3 px-md-5 mb-2" onclick="ejercicio2()">
+								Mostrar cantidad
+							</button>
+							<div id="resultado2"></div>
+						</div>
+					</div>
+				</section>
+	
+				<!-- Eje 3 -->
+				<section class="mb-5">
+					<div class="card shadow-sm">
+						<div class="card-header">
+							Ejercicio 3:
+						</div>
+						<div class="card-body">
+							<h5 class="mb-3">Valida la edad de los integrantes</h5>
+							<div class="row">
+								<div class="col-12 col-sm-6 col-md">
+									<input class="form-control mt-1" type="number" id="integrantes1" placeholder = "Edad integrante 1"/>
+								</div>
+								<div class="col-12 col-sm-6 col-md">
+									<input class="form-control mt-1" type="number" id="integrantes2" placeholder = "Edad integrante 2"/>
+								</div>
+								<div class="col-12 col-sm-6 col-md">
+									<input class="form-control mt-1" type="number" id="integrantes3" placeholder = "Edad integrante 3"/>
+								</div>
+								<div class="col-12 col-sm-6 col-md">
+									<input class="form-control mt-1" type="number" id="integrantes4" placeholder = "Edad integrante 4"/>
+								</div>
+								<div class="col-12 col-sm-6 col-md">
+									<input class="form-control mt-1" type="number" id="integrantes5" placeholder = "Edad integrante 5"/>
+								</div>
+							</div>
+							<button class="btn btn-info mt-3 px-3 px-md-5 mb-2" onclick="ejercicio3()">
+								Validar edad
+							</button>
+							<div id="resultado3"></div>
+						</div>
+					</div>
+				</section>
+
+				<!-- Eje 2 -->
+				<section class="mb-5">
+					<div class="card shadow-sm">
+						<div class="card-header">
+							Ejercicio 4:
+						</div>
+						<div class="card-body">
+							<h5>Podrás ver el desarrollo del punto 4 en el siguiente enlace</h5>
+							<a href="./api1.html">apis.html</a>
+						</div>
+					</div>
+				</section>
+			</div>
+	
+			<!-- <div class="container">
+				<h3><p class="text-info mt-4">Ejercicio 4:</p>Primera API</h3>
+				<div id="api1"></div>
+			</div> -->
+		</main>
+
+		<script
+			src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+			integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+			crossorigin="anonymous"
+		></script>
+		<script src="1.js"></script>
+		<script src="2.js"></script>
+		<script src="3.js"></script>
+		<script src="4.js"></script>
+	</body>
+</html>
